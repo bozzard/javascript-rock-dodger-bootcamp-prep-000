@@ -151,13 +151,14 @@ function moveDodger(e) {
    * we've declared for you above.)
    * And be sure to use the functions declared below!
    */
+   var key = e.which;
 var pos = positionToInteger(dodger.style.left);
 //console.log(pos)
 if ([LEFT_ARROW, RIGHT_ARROW].indexOf(key) > -1) {
    e.preventDefault()
    e.stopPropagation()
  }
-var key = e.which;
+
    else if (key === RIGHT_ARROW) {
      if (pos < 360){
        moveDodgerRight()
