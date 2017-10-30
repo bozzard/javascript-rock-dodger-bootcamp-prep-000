@@ -158,10 +158,10 @@ var key = e.which;
      if (pos < 360){
        moveDodgerRight()
      }
-     else{
+     else
      e.stopPropagation()
      return e.preventDefault();
-   }}
+   }
   else if (e.which === LEFT_ARROW) {
     if (pos > 0) {
       moveDodgerLeft()
