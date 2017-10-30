@@ -180,11 +180,11 @@ var key = e.which;
     e.preventDefault()
     e.stopPropagation()
   } */
-  if (key === LEFT_ARROW) {
+/*  if (key === LEFT_ARROW) {
    moveDodgerLeft()
  } else if (key === RIGHT_ARROW) {
    moveDodgerRight()
- }
+ } */
 }
 
   function moveDodgerRight() {
