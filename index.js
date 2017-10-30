@@ -86,8 +86,7 @@ GAME.appendChild(rock)
      * Otherwise, if the rock hasn't reached the bottom of
      * the GAME, we want to move it again.
      */
-/*     var top = positionToInteger(rock.style.top);
-     console.log('position', top); */
+
 
          var top = 0
 
@@ -100,11 +99,11 @@ GAME.appendChild(rock)
            if (check === true) {
              return endGame();
            }
-           if (top < 390) { //GAME_HEIGHT
+           if (top < GAME_HEIGHT) { 
              window.requestAnimationFrame(step)
            } else
            {
-             //rock.remove();
+             rock.remove();
            }
          }
 
