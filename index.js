@@ -142,7 +142,7 @@ function endGame() {
 //list.remove();
 
 window.removeEventListener('keydown', moveDodger)
-alert('YOU LOSE!');
+//alert('YOU LOSE!');
 
 }
 
