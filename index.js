@@ -100,7 +100,7 @@ GAME.appendChild(rock)
            var check = checkCollision(rock)
 
            if (check === true) {
-             endGame();
+             return endGame();
            }
          }
 
