@@ -94,13 +94,13 @@ GAME.appendChild(rock)
          function step() {
            rock.style.top = `${top += 2}px`
 
-           
+
            var check = checkCollision(rock)
 
            if (check === true) {
              return endGame();
            }
-           if (top < GAME_HEIGHT) {
+           if (top < 380) {
              window.requestAnimationFrame(step)
            } else
            {
@@ -115,7 +115,7 @@ GAME.appendChild(rock)
      * But if the rock *has* reached the bottom of the GAME,
      * we should remove the rock from the DOM
      */
-     
+
   }
 
   // We should kick of the animation of the rock around here
