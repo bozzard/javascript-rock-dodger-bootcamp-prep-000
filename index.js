@@ -158,7 +158,7 @@ if ([LEFT_ARROW, RIGHT_ARROW].indexOf(key) > -1) {
    e.stopPropagation()
  }
 var key = e.which;
-   /*if (key === RIGHT_ARROW) {
+   if (key === RIGHT_ARROW) {
      if (pos < 360){
        moveDodgerRight()
      }
@@ -175,7 +175,7 @@ var key = e.which;
       e.preventDefault()
       e.stopPropagation();
   }
-}*/
+}
 /*  else if ( (key !== LEFT_ARROW) || (key !== RIGHT_ARROW) ) {
     e.preventDefault()
     e.stopPropagation()
