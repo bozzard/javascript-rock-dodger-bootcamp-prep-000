@@ -94,7 +94,7 @@ GAME.appendChild(rock)
          function step() {
            rock.style.top = `${top += 2}px`
 
-           if (top < 390) {
+           if (top < 400) {
              window.requestAnimationFrame(step)
            }
            var check = checkCollision(rock)
