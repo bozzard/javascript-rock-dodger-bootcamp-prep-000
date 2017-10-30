@@ -168,8 +168,8 @@ var key = e.which;
 
     }
     else if (pos <= 0) {
-    e.stopPropagation()
-    return e.preventDefault();
+      e.preventDefault()
+      return e.stopPropagation();
   }
   }
 }
