@@ -158,7 +158,7 @@ var pos = positionToInteger(dodger.style.left);
    e.stopPropagation()
  } */
 
- if ( (key !== LEFT_ARROW) || (key !== RIGHT_ARROW) ) {
+ if ( (key !== LEFT_ARROW) && (key !== RIGHT_ARROW) ) {
      e.preventDefault()
      e.stopPropagation()
    }
