@@ -113,7 +113,7 @@ GAME.appendChild(rock)
      if (top >= 381){
        var list = document.querySelector('div.rock')
        console.log(list);
-       list.remove();
+       rock.remove();
      }
   }
 
