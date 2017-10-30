@@ -186,7 +186,7 @@ var key = e.which;
    moveDodgerRight()
  } */
 }
-
+}
   function moveDodgerRight() {
     // implement me!
     /**
