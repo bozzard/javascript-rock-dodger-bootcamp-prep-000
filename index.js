@@ -136,22 +136,8 @@ moveRock();
  */
 function endGame() {
   clearInterval(gameInterval);
-/*var myNode = document.querySelector('div.rock')
-while (list.firstChild) {
-  myNode.removeChild(myNode.firstChild);
-} */
-//console.log(list);
-//list.remove();
-/*for (let i = 0, i < (ROCKS.length), i++) {
-ROCKS.shift()
-}*/
-//myNode.remove();
-var paras = document.getElementsByClassName('rock');
-
-while(paras[0]) {
-    paras[0].GAME.removeChild(paras[0]);
-}
-window.removeEventListener('keydown', moveDodger)
+  ROCKS.forEach(function(rock) { rock.remove() })
+document.removeEventListener('keydown', moveDodger)
 return alert('YOU LOSE!');
 
 }
