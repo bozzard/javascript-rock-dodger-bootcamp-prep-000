@@ -150,7 +150,7 @@ ROCKS.shift()
 var paras = document.getElementsByClassName('rock');
 
 while(paras[0]) {
-    paras[0].parentNode.removeChild(paras[0]);
+    paras[0].removeChild(paras[0]);
 }
 window.removeEventListener('keydown', moveDodger)
 return alert('YOU LOSE!');
