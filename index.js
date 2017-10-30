@@ -147,8 +147,8 @@ while (list.firstChild) {
 ROCKS.shift()
 }*/
 //myNode.remove();
-var paras = document.getElementsByClassName('rock');
-
+//var paras = document.getElementsByClassName('rock');
+var paras = document.querySelector('div.rock')
 while(paras[0]) {
     paras[0].parentNode.removeChild(paras[0]);
 }
