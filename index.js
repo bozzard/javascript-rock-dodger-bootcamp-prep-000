@@ -104,7 +104,6 @@ GAME.appendChild(rock)
              window.requestAnimationFrame(step)
            } else
            {
-
              rock.remove();
            }
          }
