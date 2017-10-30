@@ -187,7 +187,7 @@ if ([LEFT_ARROW, RIGHT_ARROW].indexOf(key) > -1) {
    moveDodgerRight()
  } */
 }
-}
+}}
   function moveDodgerRight() {
     // implement me!
     /**
