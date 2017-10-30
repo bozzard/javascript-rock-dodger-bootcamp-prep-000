@@ -99,7 +99,7 @@ GAME.appendChild(rock)
            if (check === true) {
              return endGame();
            }
-           if (top < GAME_HEIGHT) { 
+           if (top < GAME_HEIGHT) {
              window.requestAnimationFrame(step)
            } else
            {
@@ -123,7 +123,7 @@ GAME.appendChild(rock)
 
   ROCKS.push(rock)
 
-//moveRock();
+moveRock();
   // Finally, return the rock element you've created
   return rock
 }
