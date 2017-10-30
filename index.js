@@ -140,6 +140,7 @@ function endGame() {
 //var list = document.querySelector('div.rock')
 //console.log(list);
 //list.remove();
+const ROCKS = []
 window.removeEventListener('keydown', moveDodger)
 alert('YOU LOSE!');
 
