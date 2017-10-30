@@ -167,9 +167,10 @@ var key = e.which;
       moveDodgerLeft()
 
     }
-    else if (pos <= 0)
+    else if (pos <= 0) {
     e.stopPropagation()
     return e.preventDefault();
+  }
   }
 }
 
