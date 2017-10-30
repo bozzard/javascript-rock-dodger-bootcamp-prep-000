@@ -137,7 +137,7 @@ moveRock();
  */
 function endGame() {
   clearInterval(gameInterval);
-var myNode = document.querySelector('div.rock')
+//var myNode = document.querySelector('div.rock')
 /*while (list.firstChild) {
   myNode.removeChild(myNode.firstChild);
 }*/
@@ -146,7 +146,7 @@ var myNode = document.querySelector('div.rock')
 /*for (let i = 0, i < (ROCKS.length), i++) {
 ROCKS.shift()
 }*/
-myNode.remove();
+//myNode.remove();
 window.removeEventListener('keydown', moveDodger)
 alert('YOU LOSE!');
 
