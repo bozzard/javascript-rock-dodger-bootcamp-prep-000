@@ -146,7 +146,7 @@ while (list.firstChild) {
 /*for (let i = 0, i < (ROCKS.length), i++) {
 ROCKS.shift()
 }*/
-rock.remove;
+rock.remove();
 window.removeEventListener('keydown', moveDodger)
 alert('YOU LOSE!');
 
