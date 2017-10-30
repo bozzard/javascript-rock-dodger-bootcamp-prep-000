@@ -161,7 +161,7 @@ var pos = positionToInteger(dodger.style.left);
  if ( (key !== LEFT_ARROW) || (key !== RIGHT_ARROW) ) {
      e.preventDefault()
      e.stopPropagation()
-   } 
+   }
    if (key === RIGHT_ARROW) {
      if (pos < 360){
        moveDodgerRight()
