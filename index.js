@@ -137,10 +137,10 @@ moveRock();
  */
 function endGame() {
   clearInterval(gameInterval);
-//var myNode = document.querySelector('div.rock')
-/*while (list.firstChild) {
+/*var myNode = document.querySelector('div.rock')
+while (list.firstChild) {
   myNode.removeChild(myNode.firstChild);
-}*/
+} */
 //console.log(list);
 //list.remove();
 /*for (let i = 0, i < (ROCKS.length), i++) {
