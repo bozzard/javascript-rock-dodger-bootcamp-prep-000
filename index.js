@@ -123,7 +123,7 @@ GAME.appendChild(rock)
 
   ROCKS.push(rock)
 
-moveRock();
+//moveRock();
   // Finally, return the rock element you've created
   return rock
 }
