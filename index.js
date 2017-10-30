@@ -110,11 +110,11 @@ GAME.appendChild(rock)
      * But if the rock *has* reached the bottom of the GAME,
      * we should remove the rock from the DOM
      */
-/*     if (top >= 385){
+     if (top >= 395){
        var list = document.querySelector('div.rock')
        console.log(list);
        list.remove();
-     } */
+     } 
   }
 
   // We should kick of the animation of the rock around here
