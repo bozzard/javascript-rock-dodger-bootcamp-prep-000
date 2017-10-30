@@ -100,7 +100,7 @@ GAME.appendChild(rock)
            if (check === true) {
              return endGame();
            }
-           if (top < 385) {
+           if (top < GAME_HEIGHT) {
              window.requestAnimationFrame(step)
            } else
            {
