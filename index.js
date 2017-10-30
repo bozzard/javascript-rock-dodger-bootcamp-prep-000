@@ -172,10 +172,10 @@ var key = e.which;
       e.stopPropagation();
   }
   }
-  else if ( (key !== LEFT_ARROW) || (key !== RIGHT_ARROW) ) {
+/*  else if ( (key !== LEFT_ARROW) || (key !== RIGHT_ARROW) ) {
     e.preventDefault()
     e.stopPropagation()
-  }
+  } */
 }
 
   function moveDodgerRight() {
