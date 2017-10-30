@@ -154,7 +154,7 @@ function moveDodger(e) {
    var key = e.which;
 var pos = positionToInteger(dodger.style.left);
 //console.log(pos)
-if ( (key !== LEFT_ARROW) || (key !== RIGHT_ARROW) ) {
+if ( (key !== LEFT_ARROW) && (key !== RIGHT_ARROW) ) {
    e.preventDefault()
    e.stopPropagation()
  }
