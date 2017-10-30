@@ -114,7 +114,7 @@ GAME.appendChild(rock)
        var list = document.querySelector('div.rock')
        console.log(list);
        list.remove();
-     } 
+     }
   }
 
   // We should kick of the animation of the rock around here
