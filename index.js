@@ -100,11 +100,11 @@ GAME.appendChild(rock)
            if (check === true) {
              return endGame();
            }
-           if (top < 380) {
+           if (top < 385) {
              window.requestAnimationFrame(step)
            } else
            {
-             
+
              rock.remove();
            }
          }
