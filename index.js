@@ -153,7 +153,7 @@ while(paras[0]) {
     paras[0].parentNode.removeChild(paras[0]);
 }
 window.removeEventListener('keydown', moveDodger)
-alert('YOU LOSE!');
+return alert('YOU LOSE!');
 
 }
 
