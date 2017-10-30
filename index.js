@@ -167,25 +167,15 @@ if ([LEFT_ARROW, RIGHT_ARROW].indexOf(key) > -1) {
      e.preventDefault();
    }
   else if (e.which === LEFT_ARROW) {
-    if (pos > 0) {
-      moveDodgerLeft()
+        if (pos > 0) {
+          moveDodgerLeft()
 
+        }
+        else if (pos <= 0) {
+          e.preventDefault()
+          e.stopPropagation();
     }
-    else if (pos <= 0) {
-      e.preventDefault()
-      e.stopPropagation();
-  }
-
-/*  else if ( (key !== LEFT_ARROW) || (key !== RIGHT_ARROW) ) {
-    e.preventDefault()
-    e.stopPropagation()
-  } */
-  /*if (key === LEFT_ARROW) {
-   moveDodgerLeft()
- } else if (key === RIGHT_ARROW) {
-   moveDodgerRight()
- } */
-}
+ }
 }
   function moveDodgerRight() {
     // implement me!
