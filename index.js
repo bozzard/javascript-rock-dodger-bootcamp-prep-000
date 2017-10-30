@@ -140,7 +140,9 @@ function endGame() {
 //var list = document.querySelector('div.rock')
 //console.log(list);
 //list.remove();
-
+for (let i = 0, i < (ROCKS.length), i++) {
+ROCKS.shift()
+}
 window.removeEventListener('keydown', moveDodger)
 //alert('YOU LOSE!');
 
