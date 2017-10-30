@@ -160,7 +160,7 @@ var key = e.which;
      }
      else if (pos >= 360)
      e.stopPropagation()
-     return e.preventDefault();
+     e.preventDefault();
    }
   else if (e.which === LEFT_ARROW) {
     if (pos > 0) {
@@ -169,8 +169,12 @@ var key = e.which;
     }
     else if (pos <= 0) {
       e.preventDefault()
-      return e.stopPropagation();
+      e.stopPropagation();
   }
+  }
+  else if ( (key !== LEFT_ARROW) || (key !== RIGHT_ARROW) ) {
+    e.preventDefault()
+    e.stopPropagation()
   }
 }
 
